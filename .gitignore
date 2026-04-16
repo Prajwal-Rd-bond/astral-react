@@ -7,10 +7,43 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+
+# Node modules
+node_modules/
+dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# Local env files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
 *.local
+
+# Coverage
+coverage/
+
+# VS Code history
+.history/
+
+# Mac system files
+.AppleDouble
+.LSOverride
 
 # Editor directories and files
 .vscode/*
