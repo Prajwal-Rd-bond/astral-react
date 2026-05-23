@@ -196,28 +196,41 @@ Displays:
 Astral-Explorer/
 │
 ├── public/
-│   ├── textures/
-│   ├── models/
-│   └── assets/
+│   ├── favicon.svg
+│   └── icons.svg
 │
 ├── src/
-│   ├── components/
-│   │   ├── planets/
-│   │   ├── ui/
-│   │   ├── controls/
-│   │   └── effects/
-│   │
-│   ├── scenes/
-│   ├── hooks/
-│   ├── data/
-│   ├── utils/
-│   ├── styles/
-│   └── App.jsx
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── IntroScreen.css
+│   ├── IntroScreen.jsx
+│   ├── PlanetInfo.css
+│   ├── PlanetInfo.jsx
+│   ├── SolarSystem.jsx
+│   ├── index.css
+│   └── main.jsx
 │
+├── .gitignore
 ├── package.json
 ├── vite.config.js
 └── README.md
 ```
+
+## Important Files Explained
+
+| File            | Purpose                                             |
+| --------------- | --------------------------------------------------- |
+| App.jsx         | Main application component                          |
+| SolarSystem.jsx | Handles 3D solar system rendering and planet logic  |
+| PlanetInfo.jsx  | Displays selected planet information panel          |
+| IntroScreen.jsx | Intro landing screen before entering the experience |
+| main.jsx        | React application entry point                       |
+| App.css         | Global app styling                                  |
+| PlanetInfo.css  | Styling for planet information panel                |
+| IntroScreen.css | Styling for intro screen                            |
+| index.css       | Base global styles                                  |
+| assets/         | Stores textures, images, and static resources       |
 
 ---
 
@@ -481,29 +494,56 @@ Includes:
 
 # Screenshots
 
-## Main Solar System View
+## Intro Experience
+
+The project begins with a cinematic landing screen introducing users to the Astral Explorer universe.
 
 ```md
-Add screenshot here
+![Intro Screen](./screenshots/intro-screen.png)
 ```
 
-## Planet Zoom Interface
+Features shown:
+
+* Cinematic UI
+* Space-themed landing page
+* Begin Exploration interaction
+* Animated cosmic background
+
+---
+
+## Full Solar System View
+
+Users can explore the entire solar system with realistic orbital layouts and glowing planetary rendering.
 
 ```md
-Add screenshot here
+![Solar System](./screenshots/solar-system-view.png)
 ```
 
-## Information Panel
+Features shown:
+
+* Realistic orbital rings
+* Dynamic planetary glow
+* 3D rendering environment
+* Space background simulation
+* Real-time planetary positioning
+
+---
+
+## Planet Information Interface
+
+Clicking a planet opens an immersive information panel containing facts and planetary statistics.
 
 ```md
-Add screenshot here
+![Planet Info](./screenshots/planet-info-panel.png)
 ```
 
-## Planet Preview Component
+Features shown:
 
-```md
-Add screenshot here
-```
+* Planet details panel
+* Interactive close button
+* Planet statistics
+* Modern glassmorphism UI
+* Dynamic content rendering
 
 ---
 
