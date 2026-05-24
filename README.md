@@ -614,25 +614,8 @@ This project is licensed under the MIT License.
 
 ## Developed By
 
-**Your Name**
+**Prajwal RD, Sujan KS and Vinayak J Prabhu**
 
-Passionate about:
-
-* 3D Web Development
-* Space Visualization
-* Interactive UI/UX
-* Modern Frontend Engineering
-
----
-
-# Support
-
-If you like this project:
-
-* Star the repository
-* Share the project
-* Contribute improvements
-* Report issues
 
 ---
 
