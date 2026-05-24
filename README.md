@@ -8,11 +8,11 @@
 
 Explore planets, cinematic transitions, immersive space visuals, and real-time interactions in a stunning web-based universe.
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=three.js\&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 </div>
 
@@ -118,16 +118,16 @@ The project demonstrates how modern frontend technologies can be used to create 
 
 # Tech Stack
 
-| Technology        | Purpose                 |
-| ----------------- | ----------------------- |
-| React             | Frontend framework      |
+| Technology | Purpose |
+|---|---|
+| React | Frontend framework |
 | React Three Fiber | 3D rendering with React |
-| Three.js          | Core 3D engine          |
-| Vite              | Fast build tool         |
-| JavaScript        | Application logic       |
-| Tailwind CSS      | Styling                 |
-| Drei              | Useful helpers for R3F  |
-| Framer Motion     | UI animations           |
+| Three.js | Core 3D engine |
+| Vite | Fast build tool |
+| JavaScript | Application logic |
+| Tailwind CSS | Styling |
+| Drei | Useful helpers for R3F |
+| Framer Motion | UI animations |
 
 ---
 
@@ -211,6 +211,10 @@ Astral-Explorer/
 │   ├── index.css
 │   └── main.jsx
 │
+├── interface-interface.png
+├── ui-UI.png
+├── another ui-UI7.png
+│
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
@@ -219,18 +223,18 @@ Astral-Explorer/
 
 ## Important Files Explained
 
-| File            | Purpose                                             |
-| --------------- | --------------------------------------------------- |
-| App.jsx         | Main application component                          |
-| SolarSystem.jsx | Handles 3D solar system rendering and planet logic  |
-| PlanetInfo.jsx  | Displays selected planet information panel          |
+| File | Purpose |
+|---|---|
+| App.jsx | Main application component |
+| SolarSystem.jsx | Handles 3D solar system rendering and planet logic |
+| PlanetInfo.jsx | Displays selected planet information panel |
 | IntroScreen.jsx | Intro landing screen before entering the experience |
-| main.jsx        | React application entry point                       |
-| App.css         | Global app styling                                  |
-| PlanetInfo.css  | Styling for planet information panel                |
-| IntroScreen.css | Styling for intro screen                            |
-| index.css       | Base global styles                                  |
-| assets/         | Stores textures, images, and static resources       |
+| main.jsx | React application entry point |
+| App.css | Global app styling |
+| PlanetInfo.css | Styling for planet information panel |
+| IntroScreen.css | Styling for intro screen |
+| index.css | Base global styles |
+| assets/ | Stores textures, images, and static resources |
 
 ---
 
@@ -498,9 +502,7 @@ Includes:
 
 The project begins with a cinematic landing screen introducing users to the Astral Explorer universe.
 
-```md
-![Intro Screen](./screenshots/intro-screen.png)
-```
+![Intro Screen](./interface-interface.png)
 
 Features shown:
 
@@ -515,9 +517,7 @@ Features shown:
 
 Users can explore the entire solar system with realistic orbital layouts and glowing planetary rendering.
 
-```md
-![Solar System](./screenshots/solar-system-view.png)
-```
+![Solar System](./ui-UI.png)
 
 Features shown:
 
@@ -533,9 +533,7 @@ Features shown:
 
 Clicking a planet opens an immersive information panel containing facts and planetary statistics.
 
-```md
-![Planet Info](./screenshots/planet-info-panel.png)
-```
+![Planet Info](./another%20ui-UI7.png)
 
 Features shown:
 
