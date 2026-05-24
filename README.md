@@ -244,7 +244,7 @@ Astral-Explorer/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/astral-explorer.git
+git clone https://github.com/your-username/astral-react.git
 ```
 
 ## Navigate to Project Folder
