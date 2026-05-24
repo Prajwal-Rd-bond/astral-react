@@ -250,7 +250,7 @@ git clone https://github.com/your-username/astral-explorer.git
 ## Navigate to Project Folder
 
 ```bash
-cd astral-explorer
+cd astral-react
 ```
 
 ## Install Dependencies
