@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![Astral Explorer Banner](https://via.placeholder.com/1200x400?text=Astral+Explorer)
+![Astral Explorer Banner](./Name.png)
+
 
 ### An Interactive 3D Solar System Experience Built with React Three Fiber
 
