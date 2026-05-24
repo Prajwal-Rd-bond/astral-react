@@ -212,9 +212,9 @@ Astral-Explorer/
 │   ├── index.css
 │   └── main.jsx
 │
-├── interface-interface.png
-├── ui-UI.png
-├── another ui-UI7.png
+├── interface.png
+├── UI.png
+├── UI7.png
 │
 ├── .gitignore
 ├── package.json
