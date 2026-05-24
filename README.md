@@ -502,7 +502,7 @@ Includes:
 
 The project begins with a cinematic landing screen introducing users to the Astral Explorer universe.
 
-![Intro Screen](./interface-interface.png)
+![Intro Screen](./interface.png)
 
 Features shown:
 
@@ -517,7 +517,7 @@ Features shown:
 
 Users can explore the entire solar system with realistic orbital layouts and glowing planetary rendering.
 
-![Solar System](./ui-UI.png)
+![Solar System](./UI.png)
 
 Features shown:
 
@@ -533,7 +533,7 @@ Features shown:
 
 Clicking a planet opens an immersive information panel containing facts and planetary statistics.
 
-![Planet Info](./another%20ui-UI7.png)
+![Planet Info](./UI7.png)
 
 Features shown:
 
